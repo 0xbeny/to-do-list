@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    height: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    font-family: 'hind', sans-serif;
+    color: #fff;
+}
+
+.styling {
+    font-weight: 500;
+    color: lime;
+}
+.date{
+    color: #fff;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container .input {
+    width: 80%;
+    height: 50px;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    outline: none;
+    background-color: #fff;
+    margin: 0.25rem;
+    border-radius: 25px;
+    border: none;
+}
+
+.add-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: lime;
+    margin: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    opacity: 0.7;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.item {
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    /* border: 5px solid #fff; */
+    border-bottom: #fff solid 1px;
+   
+}
+
+.item-input {
+    width: 70%;
+    background: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 1.4rem;
+}
+
+.edit-button {
+    font-size: 1.4rem;
+    margin: 0 0.75rem;
+    font-family: 'Hind', sans-serif;
+    outline: none;
+    color: lime;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    opacity: 0.7;
+
+}
+
+.remove-button {
+    font-size: 1.4rem;
+    margin: 0 .75rem;
+    font-family: 'Hind', sans-serif;
+    outline: none;
+    color: #E00;
+    border: none;
+    background: none;
+    cursor: pointer;
+  
+}
+
+.remove-button:hover {
+    opacity: 0.7;
+
+}
+
+@media (min-width:320px)and (max-width:600px) {
+    .edit-button {
+        font-size: 1rem;
+        width: 10%;
+    }
+    .remove-button {
+        font-size: 1rem;
+        width: 10%;
+    }
+    .item-input {
+        width:60%;
+        font-size: 1rem;}
+        .input-container .input{
+            width: 80%;
+            padding: 0.25rem 0.5rem;
+            font-size: 1rem;
+        }
+}
